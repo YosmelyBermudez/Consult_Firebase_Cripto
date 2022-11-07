@@ -1,0 +1,32 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table, thead, td {
+  border: 1px solid black;
+  text-align: center;
+}
+.titulos {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid black;
+  text-align: center;
+  background: black;
+  border-color: white;
+}
+tr:hover {background-color: black;}
+.success {
+  background-color: green;
+}
+.danger {
+  background-color: red;
+}
+
